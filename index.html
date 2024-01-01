@@ -134,6 +134,8 @@
 				$('.file-upload-input').replaceWith($('.file-upload-input').clone());
 				$('.file-upload-content').hide();
 				$('.image-upload-wrap').show();
+				$('.result-messege').html('');
+    				$('#label-container').empty();
 			}
 			$('.image-upload-wrap').bind('dragover', function () {
 				$('.image-upload-wrap').addClass('image-dropping');
